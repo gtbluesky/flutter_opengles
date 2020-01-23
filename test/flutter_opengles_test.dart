@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await FlutterOpengles.platformVersion, '42');
+    expect(await OpenGLESController.platformVersion, '42');
   });
 }
